@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background: linear-gradient(68.15deg,#c471b6 16.62%, #c23aab  85.61%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 20%;
+    border-bottom: 1px solid white;
+}
+
+#logo-img {
+    height: 80%;
+}
+
+#meka-logo {
+    height: 50%;
+}
+
+#login {
+    display: flex;
+    align-self: flex-start;
+    margin: 10px 10px;
+}
