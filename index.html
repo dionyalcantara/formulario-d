@@ -9,24 +9,51 @@
 </head>
 <body>
     <header id="header">
-        <img id="logo-img" src="src/images/logo.png" alt="logo">
         <img id="meka-logo" src="src/images/meka-logo.png" alt="meka logo">
         <div id="login">
-            <label for="email-login">
+            <label class="login-bar" for="email-login">
                 <input type="email" id="email-login" placeholder="E-mail">
             </label>
-            <label for="password-login">
+            <label class="login-bar" for="password-login">
                 <input type="password" id="password-login" placeholder="Senha">
             </label>
-            <input type="submit" value="Entrar">
+            <input class="login-bar button" type="submit" value="Entrar">
         </div>
     </header>
-    <main>
+    <main id="main">
+        <form id="form">
+            <h2 id="title">Formulário de Inscrição MEKA</h2>
+            <!--Nome e Sobrenome-->
+            <div id="full-name">
+                <input type="text" name="name" id="input-name" placeholder="Nome">
+                <input type="text" name="lastname" id="input-lastname" placeholder="Sobrenome">
+            </div>
+
+            <div id="email-phone">
+            <!--email-->
+                <input type="email" name="email" id="input-email" placeholder="Email">
+            <!--telefone-->
+                <input type="text" name="phone" id="input-phone" placeholder="(00) 0 0000-0000">
+            </div>
+
+            <!--Data de nascimento e sexo-->
+
+            <!--Fale um pouco sobre você-->
+            <div id="text-area">
+                <h4 id="title-area"><strong>Fale um pouco sobre você:</strong></h4>
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+            </div>
+            <!--Deseja receber nossas novidades-->
+        </form>
+
+        <div id="div-img">
+            <img id="dva-img" src="src/images/Dva_portrait.png" alt="dva-subform">
+        <div>
 
     </main>
 
-    <footer>
-
+    <footer id="footer">
+        <span>direitos reservados meka®</span>
     </footer>
 </body>
 </html>
