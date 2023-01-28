@@ -37,13 +37,32 @@
             </div>
 
             <!--Data de nascimento e sexo-->
-
+            <div id="birth-sexo">
+                <input type="text" name="birthdate" id="birth-date" placeholder="00/00/0000">
+                <div id="sexo">
+                    <span>Sexo:</span>
+                    <label class="label-sexo" for="male">
+                        <input type="radio" name="sexo" id="male" value="Masculino">
+                        Masculino
+                    </label>
+                    <label class="label-sexo" for="female">
+                        <input type="radio" name="sexo" id="female" value="Feminino">
+                        Feminino
+                    </label>
+                </div>
+            </div>
             <!--Fale um pouco sobre você-->
             <div id="text-area">
                 <h4 id="title-area"><strong>Fale um pouco sobre você:</strong></h4>
-                <textarea name="" id="" cols="30" rows="10"></textarea>
+                <textarea name="" id="about-you" cols="30" rows="10"></textarea>
             </div>
             <!--Deseja receber nossas novidades-->
+            <label id="agreement" for="agreement-checkbox">
+                <input type="checkbox" name="" id="agreement-checkbox" >
+                Você concorda com os termos?
+            </label>
+
+            <input type="submit" id="button-submit" value="Enviar">
         </form>
 
         <div id="div-img">
@@ -55,5 +74,6 @@
     <footer id="footer">
         <span>direitos reservados meka®</span>
     </footer>
+    <script src="./src/scripts/scripts.js"></script>
 </body>
 </html>
